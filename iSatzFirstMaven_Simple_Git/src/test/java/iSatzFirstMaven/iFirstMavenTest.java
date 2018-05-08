@@ -3,7 +3,7 @@ package iSatzFirstMaven;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class iFirstMaven {
+public class iFirstMavenTest {
 
 	@Test (priority = 0)
 	public void SampleTestScript7() {
@@ -25,6 +25,6 @@ public class iFirstMaven {
 	@Test (priority = 3)
 	public void SampleTestScript3 () {
 		System.out.println("Test Case Number 3");
-		Assert.assertEquals("Google", "Google");
+		Assert.assertEquals("Google", "Hello");
 	}
 }
